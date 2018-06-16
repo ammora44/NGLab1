@@ -23,8 +23,8 @@ function TodoController() {
             task: "Get Lots of Sleep.",
             completed: false
         }
-    ]
-}
+    ];
+};
 
 
 angular
