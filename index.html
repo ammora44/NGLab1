@@ -23,13 +23,13 @@
 
         <div class="tasklist" ng-repeat="stuff in tasks.toDoTasks">
             <section class="listwrap" ng-class="{ 'true': stuff.completed === true, 'false': stuff.completed === false }">
-            <p>{{ $index + 1 }}. <button type="button" class="completebtn" ng-if="stuff.completed === false">Complete</button>{{ stuff.task }}<i class="material-icons">clear</i></p>
+            <p>{{ $index + 1 }}. <button type="button" class="completebtn pointer" ng-if="stuff.completed === false">Complete</button>{{ stuff.task }}<i class="material-icons pointer">clear</i></p>
             </section>
         </div>
     
     <div class="bottom">
     <input type="text" placeholder="Add your to do" class="additem">
-    <button type="button" class="addbtn">Add</button>
+    <button type="button" class="addbtn pointer">Add</button>
     </div>
     </section>
 
